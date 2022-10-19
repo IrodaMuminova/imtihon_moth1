@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -30,7 +31,7 @@ li {
 /* Header qismi  */
 header {
     position: fixed;
-    
+   
     z-index: 1;
     background: #F8EDF0;
     text-align: center;
@@ -45,6 +46,7 @@ header {
 .heroarea {
     background: #F8EDF0;
     height: 862px;
+   
 }
 
 .header-container {
